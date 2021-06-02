@@ -1,0 +1,23 @@
+# 项目相关配置
+homeWorkConsumption:
+  # 名称
+  name: 家庭作业
+server:
+  # 端口号
+  port: 8888
+  # 项目路径
+  servlet:
+    context-path: /homework
+spring:
+  # 服务名称
+  application:
+    name: hsbc-homework-service
+  # 时间格式化
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  profiles:
+    active: dev
+
+
+
